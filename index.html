@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AM SAGOR | Software Engineering Student & Developer</title>
+<meta name="description" content="AM Sagor is a Software Engineering student and developer specializing in web development, software engineering, AI and machine learning." />
+<meta name="author" content="AM Sagor" />
+
+<!-- Open Graph -->
+<meta property="og:title" content="AM SAGOR | Software Engineering Student & Developer" />
+<meta property="og:description" content="AM Sagor is a Software Engineering student and developer specializing in web development, software engineering, AI and machine learning." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="File/AM%20SAGOR.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar" id="navbar">
+  <div class="container navbar__inner">
+    <a href="#home" class="navbar__logo" aria-label="AM Sagor home">
+      <span class="navbar__logo-bracket"></span>AM<span class="text-gradient">SAGOR</span><span class="navbar__logo-bracket"></span>
+    </a>
+
+    <nav class="navbar__nav" id="navMenu" aria-label="Primary">
+      <a href="#home" class="navbar__link active" data-nav>Home</a>
+      <a href="#about" class="navbar__link" data-nav>About</a>
+      <!-- <a href="#services" class="navbar__link" data-nav>Services</a> -->
+      <a href="#skills" class="navbar__link" data-nav>Skills</a>
+      <a href="#projects" class="navbar__link" data-nav>Projects</a>
+      <a href="#contact" class="navbar__link" data-nav>Contact</a>
+    </nav>
+
+    <div class="navbar__actions">
+      <a href="#contact" class="btn btn--primary btn--sm">Hire Me</a>
+      <button class="navbar__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="home">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__grid"></div>
+      <div class="hero__glow hero__glow--cyan"></div>
+      <div class="hero__glow hero__glow--purple"></div>
+    </div>
+
+    <div class="container hero__inner">
+      <div class="hero__content reveal">
+        <span class="badge">
+          <span class="badge__dot" aria-hidden="true"></span>
+          AVAILABLE FOR OPPORTUNITIES
+        </span>
+
+        <h1 class="hero__title">
+          Hi, I'm <span class="text-gradient">AM SAGOR</span>
+        </h1>
+
+        <p class="hero__role">Software Engineering Student &amp; Developer</p>
+
+        <p class="hero__desc">
+          I build modern, responsive and user-focused digital experiences using
+          web technologies, software engineering and intelligent solutions.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Hire Me</a>
+          <a href="#projects" class="btn btn--ghost">View My Work</a>
+        </div>
+
+        <div class="hero__social" aria-label="Social links">
+          <a href="https://github.com/alimuhammadsagor" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/md-sagor-ahmmed-211b37332/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+          <a href="https://www.facebook.com/share/198Tbuka21/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="mailto:sagor.stu4@gmail.com" class="social-icon" aria-label="Email"><i data-lucide="mail"></i></a>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal reveal--delay">
+        <div class="hero__frame">
+          <div class="hero__frame-glow" aria-hidden="true"></div>
+          <div class="hero__image-wrap">
+            <img
+              src="File/AM%20SAGOR.png"
+              alt="Portrait of AM Sagor"
+              class="hero__image"
+              onerror="this.onerror=null;this.parentElement.classList.add('hero__image-wrap--fallback');this.style.display='none';"
+            />
+            <div class="hero__image-fallback" aria-hidden="true">AS</div>
+          </div>
+
+          <span class="float-card float-card--1">
+            <i data-lucide="code-2"></i> React Developer
+          </span>
+          <span class="float-card float-card--2">
+            <i data-lucide="cpu"></i> Software Engineer
+          </span>
+          <span class="float-card float-card--3">
+            <i data-lucide="brain-circuit"></i> ML / DL Enthusiast
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-indicator" aria-label="Scroll to About section">
+      <span class="scroll-indicator__mouse"><span></span></span>
+      <span class="scroll-indicator__text">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">// About Me</span>
+        <h2 class="section__title">Turning ideas into working software</h2>
+      </div>
+
+      <div class="about__grid">
+        <div class="about__text reveal">
+          <p>
+            I'm a passionate Software Engineering student and developer who enjoys
+            building modern web applications, solving real-world problems and
+            exploring Artificial Intelligence and Machine Learning.
+          </p>
+          <p>
+            I enjoy turning ideas into useful, scalable and user-friendly digital
+            products &mdash; from the first line of code to a polished, working
+            interface people actually want to use.
+          </p>
+
+          <a href="/cv.pdf" class="btn btn--primary" download>
+            <i data-lucide="download"></i> Download CV
+          </a>
+        </div>
+
+        <div class="about__cards reveal reveal--delay">
+          <div class="info-card">
+            <div class="info-card__icon"><i data-lucide="graduation-cap"></i></div>
+            <div>
+              <p class="info-card__label">Education</p>
+              <p class="info-card__value">BSc in Software Engineering</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon"><i data-lucide="landmark"></i></div>
+            <div>
+              <p class="info-card__label">University</p>
+              <p class="info-card__value">Daffodil International University</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon"><i data-lucide="target"></i></div>
+            <div>
+              <p class="info-card__label">Focus</p>
+              <p class="info-card__value">Web Development &bull; Software Engineering &bull; AI &bull; Machine Learning</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <div class="info-card__icon"><i data-lucide="map-pin"></i></div>
+            <div>
+              <p class="info-card__label">Location</p>
+              <p class="info-card__value">Bangladesh</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SERVICES =================
+  <section class="section section--alt" id="services">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">// What I Do</span>
+        <h2 class="section__title">My Services</h2>
+      </div>
+
+      <div class="services__grid" id="servicesGrid"></div>
+    </div>
+  </section>
+  -->
+
+  <!-- ================= SKILLS ================= -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section__head reveal">
+        <!-- <span class="eyebrow">// Toolbox</span> -->
+        <h2 class="section__title">Skills &amp; Technologies</h2>
+      </div>
+
+      <div class="skills__categories" id="skillsCategories"></div>
+    </div>
+  </section>
+
+  <!-- ================= PROJECTS ================= -->
+  <section class="section section--alt" id="projects">
+    <div class="container">
+      <div class="section__head reveal">
+        <!-- <span class="eyebrow">// Selected Work</span> -->
+        <h2 class="section__title">My Projects</h2>
+      </div>
+
+      <div class="projects__grid" id="projectsGrid"></div>
+    </div>
+  </section>
+
+  <!-- ================= EDUCATION / JOURNEY ================= -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">// The Path So Far</span>
+        <h2 class="section__title">Education &amp; Journey</h2>
+      </div>
+
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="eyebrow">// Get In Touch</span>
+        <h2 class="section__title">Let's Work Together</h2>
+        <p class="section__desc">
+          Have a project idea, collaboration opportunity or simply want to say hello? Feel free to get in touch.
+        </p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <div class="contact__item">
+            <div class="contact__icon"><i data-lucide="mail"></i></div>
+            <div>
+              <p class="contact__label">Email</p>
+              <a href="mailto:sagor.stu4@gmail.com" class="contact__value">sagor.stu4@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__icon"><i data-lucide="phone"></i></div>
+            <div>
+              <p class="contact__label">Phone</p>
+              <a href="tel:+8801852500422" class="contact__value">+8801852500422</a>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="contact__icon"><i data-lucide="map-pin"></i></div>
+            <div>
+              <p class="contact__label">Location</p>
+              <span class="contact__value">Dhaka, Bangladesh</span>
+            </div>
+          </div>
+
+          <div class="contact__social">
+            <a href="https://github.com/alimuhammadsagor" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/md-sagor-ahmmed-211b37332/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/share/198Tbuka21/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="mailto:sagor.stu4@gmail.com" class="social-icon" aria-label="Email"><i data-lucide="mail"></i></a>
+          </div>
+        </div>
+
+        <form class="contact__form reveal reveal--delay" id="contactForm" novalidate>
+          <div class="form__row">
+            <div class="form__group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" />
+              <span class="form__error" id="nameError"></span>
+            </div>
+            <div class="form__group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email" />
+              <span class="form__error" id="emailError"></span>
+            </div>
+          </div>
+
+          <div class="form__group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What's this about?" />
+            <span class="form__error" id="subjectError"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..."></textarea>
+            <span class="form__error" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block">
+            <i data-lucide="send"></i> Send Message
+          </button>
+
+          <p class="form__success" id="formSuccess" role="status" aria-live="polite">
+            <i data-lucide="check-circle-2"></i> Your email app is opening with the message ready to send.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="#home" class="navbar__logo">
+        <span class="navbar__logo-bracket"></span>AM<span class="text-gradient">SAGOR</span><span class="navbar__logo-bracket"></span>
+      </a>
+      <p>Software Engineering Student &amp; Developer building modern digital experiences.</p>
+    </div>
+
+    <div class="footer__links">
+      <p class="footer__heading">Quick Links</p>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <!-- <a href="#services">Services</a> -->
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <div class="footer__social">
+      <p class="footer__heading">Connect</p>
+      <div class="contact__social">
+        <a href="https://github.com/alimuhammadsagor" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/md-sagor-ahmmed-211b37332/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/share/198Tbuka21/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+        <a href="mailto:sagor.stu4@gmail.com" class="social-icon" aria-label="Email"><i data-lucide="mail"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>&copy; 2026 AM SAGOR. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i data-lucide="arrow-up"></i>
+</button>
+
+<!-- Lucide icons -->
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
