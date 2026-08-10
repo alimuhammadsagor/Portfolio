@@ -74,7 +74,7 @@ const skillsData = [
     ]
   },
   {
-    category: "AI / ML",
+    category: "ML / DL",
     icon: "brain-circuit",
     skills: [
       { name: "Machine Learning", icon: "bot" },
@@ -88,7 +88,8 @@ const skillsData = [
     skills: [
       { name: "Git", icon: "git-branch" },
       { name: "GitHub", icon: "github" },
-      { name: "VS Code", icon: "app-window" }
+      { name: "VS Code", icon: "app-window" },
+      { name: "Google Colab", icon: "Google Colab" }
     ]
   }
 ];
